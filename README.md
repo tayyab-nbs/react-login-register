@@ -1,3 +1,3 @@
-# react-hooks-redux-registration-login-example
+# react-login-register
 
 React Hooks + Redux - User Registration and Login Tutorial & Example
