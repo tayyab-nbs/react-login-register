@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { Link } from 'react-router-dom';
 import { useDispatch, useSelector } from 'react-redux';
-
+import { Router, Route, Switch, Redirect } from 'react-router-dom';
 import { userActions } from '../_actions';
 
 function RegisterPage() {
@@ -17,7 +17,7 @@ function RegisterPage() {
 
     // reset login status
     useEffect(() => {
-        dispatch(userActions.logout());
+        //dispatch(userActions.logout());
     }, []);
 
     function handleChange(e) {
